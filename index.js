@@ -28,8 +28,7 @@ async function main(interval) {  //interval: 1m,3m,5m,15m,30m,1h,2h,4h,6h,8h,12h
         });
     }
 }
-var myInt = setInterval(checkBTC.compareBTCPrice, 20000);
-console.log('in');
+var myInt = setInterval(checkBTC.compareBTCPrice, 60000);
 var checkCandle30p = new CronJob({ //'0 2,32 * * * *'
     cronTime: '0 2,32 * * * *',
     onTick: function() {    
