@@ -1,0 +1,16 @@
+{
+  "name": "check_binance_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Pham",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.3.0",
+    "request": "^2.85.0",
+    "telegram-node-bot": "^4.0.5"
+  }
+}
